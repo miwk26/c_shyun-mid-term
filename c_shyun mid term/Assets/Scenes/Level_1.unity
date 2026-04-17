@@ -3873,6 +3873,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3634166046392588229, guid: cae8b84a3d6c1374f961fbae636293a8, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634166046392588229, guid: cae8b84a3d6c1374f961fbae636293a8, type: 3}
+      propertyPath: moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380451922313762533, guid: cae8b84a3d6c1374f961fbae636293a8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 055b9210d0bbc80448a9b1a761e255f7, type: 2}
     - target: {fileID: 7362592578736438287, guid: cae8b84a3d6c1374f961fbae636293a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
