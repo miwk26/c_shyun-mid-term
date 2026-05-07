@@ -53,6 +53,9 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("Finish"))
         {
+            //HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
+
             collision.GetComponent<LevelObject>().MoveToNextLevel();
         }
 
